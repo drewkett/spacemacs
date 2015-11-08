@@ -1,7 +1,6 @@
 (setq extra-langs-packages
   '(
     arduino-mode
-    julia-mode
     matlab-mode
     qml-mode
     scad-mode
@@ -17,9 +16,6 @@
 
 (defun extra-langs/init-qml-mode ()
   (use-package qml-mode :defer t :mode "\\.qml\\'"))
-
-(defun extra-langs/init-julia-mode ()
-  (use-package julia-mode :defer t))
 
 (defun extra-langs/init-matlab-mode ()
   (use-package matlab-mode :defer t))
